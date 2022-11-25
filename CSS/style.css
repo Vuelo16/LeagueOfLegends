@@ -1,0 +1,300 @@
+/* Selectores de etiquetas */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    display: flex;
+    height: 60px;
+    background-color: #4e48c9;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+nav ul{
+     display: flex;
+} 
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+nav li{
+    list-style: none;
+    padding: 0px 20px;
+    margin-right: 40px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+.nav-logolol{
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 12px;
+
+}
+
+.cabezal{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.cabezal img{
+    width: 50%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.cabezal span{
+    font-family:serif;
+    font-size: 4rem;
+    color:#4e48c9;
+}
+
+.cabezal a{
+    text-decoration: none;
+    color: #000000;
+    background-color: #4e48c9;
+    font-size: 1.5rem;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.cabezal p{
+    font-size: 20px;
+}
+
+main{
+    max-height: 50%;
+}
+
+.otrosjuegos{
+
+    border: 1px #7b7b7d83 solid;
+}
+
+.otrosjuegos h1{
+    text-align: center;
+    font-size: 1.5rem;
+    color:#4e48c9;
+}
+
+.otrosjuegos-images{
+    display: flex;
+    justify-content: center;
+    height: 9rem;
+}
+
+.otrosjuegos-images img{
+    border-radius: 50%;
+    border:#4e48c9 1px solid;
+    width: 9%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.ultimo p{
+    color: #fff;
+    background-color: #4e48c9bb;
+    width: 92%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+footer{
+    max-height: 20%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #4e48c9; 
+    color: #fff;
+}
+
+footer h5{
+    color: #000000;
+}
+
+.primero{
+    margin-left: 20px;
+}
+
+.tercero{
+    margin-right:30px ;
+}
+
+.campeon{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.campeon img{
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 34%;
+    margin-bottom: 30px;
+    
+}
+
+.campeon h1{
+    border-radius:  1px;
+    border: #4e48c9 1px solid;
+    background-color: #4e48c96c;
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 3rem;
+    color: #4e48c9
+    
+}
+
+.campeon h2{
+    border-radius:  1px;
+    border: #4e48c9 1px solid;
+    background-color: #4e48c96c;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 3rem;
+    color: #4e48c9
+}
+
+.campeon p{
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.contact{
+    margin-top: 5rem;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .contact input,
+  textarea,
+  select {
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  
+  .contact button {
+    background-color: #4e48c9;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    width: 50%;
+    margin: 10px auto;
+  }
+
+
+  .contact h1{
+      text-align: center;
+      margin-top: 0px;
+      
+  }
+
+  
+  @media (max-width: 1080px) {
+    .cabezal span {    
+      font-size: 2rem;   
+    }
+    .cabezal{
+      margin-top: 15px;
+      padding: 0 10px;
+      margin-left: 40px;
+    }
+
+    .cabezal img{
+        width: 33%;
+        margin-right: 40px;
+        
+    }
+    .otrosjuegos{
+        width: 100%;
+        height: 40%;
+    }
+    .ultimo{
+        width: 87%;
+    }
+
+    .campeon-div p{
+        margin-right: 200px;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .segundo iframe{
+      width: 70%;
+      height: 40%;
+    }
+    .cabezal span {    
+      font-size: 1rem;     
+    }
+    .cabezal a {    
+      font-size: 0.8rem;    
+    }
+    .cabezal p{
+      font-size: 0.7rem;
+    }
+    .cabezal{
+      margin-top: 45px;
+      padding: 0 10px;
+      margin-left: 40px;
+    }
+    
+    .cabezal img{
+        width: 33%;
+        margin-right: 40px;
+        
+        
+    }
+
+    nav a {    
+      font-size: 10px;
+      margin-left:0px;
+
+    }
+  
+    nav li {    
+      padding: 0px 0px;
+    
+    }
+
+    .nav img{
+        margin-left: 0px;
+    }
+    .otrosjuegos{
+        width: 100%;
+        height: 40%;
+    }
+
+    .campeon p{
+        margin-right: 120px;
+    }
+    
+  }
